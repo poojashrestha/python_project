@@ -1,0 +1,13 @@
+2024-10-10 23:52:16.926624- Sent to abc: Good Morning, abc! Have a great day......!
+2024-10-10 23:52:16.927266- Sent to bcd: Good Morning, bcd! Have a great day......!
+2024-10-10 23:52:16.927578- Sent to cde: Good Morning, cde! Have a great day......!
+2024-10-11 00:22:36.284409- Sent to abc: Good Morning, abc! Have a great day......!
+2024-10-11 00:22:36.285598- Sent to bcd: Good Morning, bcd! Have a great day......!
+2024-10-11 00:22:36.285808- Sent to cde: Good Morning, cde! Have a great day......!
+2024-10-11 00:33:05.592364- Sent to abc: Good Morning, abc! Have a great day......!
+2024-10-11 00:33:05.594896- Sent to bcd: Good Morning, bcd! Have a great day......!
+2024-10-11 00:33:05.595059- Sent to cde: Good Morning, cde! Have a great day......!
+2024-10-11 00:33:15.475975- Sent to bcd: Good Morning, bcd! Have a great day......!
+2024-10-11 00:33:15.477040- Sent to cde: Good Morning, cde! Have a great day......!
+2024-10-15 14:59:54.651957- Sent to bcd: Good Morning, bcd! Have a great day......!
+2024-10-15 14:59:54.654904- Sent to cde: Good Morning, cde! Have a great day......!
