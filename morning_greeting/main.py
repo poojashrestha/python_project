@@ -33,7 +33,7 @@ def main():
                 for contact in contact_list:
                     message = generate_message(contact['name'])
                     try:
-                        if send_message(contact['email'], message = message):
+                        if send_message(contact['name'], contact['email'], message):
                             log_message(contact, message)
                             print(f"Message sent to {contact['name']}")
                     except ValueError as e:
