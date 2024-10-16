@@ -45,7 +45,8 @@ class Contacts:
                 self.contacts.remove(contact)
                 print(f"Contact {name} with email {email} removed successfully.")
                 return
-        raise ContactNotFoundError(f"No contact found with name {name} and email {email}.")
+        # If no contact is found, raise the exception
+        raise ContactNotFoundError(f"Contact with name {name} and email {email} not found.")
         #self.contacts = [c for c in self.contacts if c['name'] != name]
         #print(f"Contact {name} removed.")
 

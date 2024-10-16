@@ -56,10 +56,24 @@ def main():
             email = input("Enter contact email to remove: ")
 
             try:
-                contacts.remove_contact(name)
+                contacts.remove_contact(name, email)
                 print("Contact removed successfully")
+                
+                """ except ContactNotFoundError as e:
+                    # This will handle the exception and not crash the program
+                print(f"Error: {e}") """
+            
             except ContactNotFoundError as e:
+                # This will handle the exception and not crash the program
                 print(f"Error: {e}")
+        
+                # Allow user to decide what to do next after the error
+                user_choice = input("Do you want to try again with different details? (yes/no): ").strip().lower()
+
+                if user_choice == 'yes':
+                    continue  # Restart the loop to allow user to input different details
+                else:
+                    print("Exiting the remove contact operation.")
 
         elif choice == '4':
             
